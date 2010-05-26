@@ -1,0 +1,56 @@
+May 26 18:23:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 26 18:23:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 26 18:23:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 26 18:23:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 26 18:23:27 symfony [info] {myUser} Automatic user logout due to timeout
+May 26 18:23:27 symfony [info] {myUser} User is not authenticated
+May 26 18:23:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 26 18:23:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 26 18:23:27 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 26 18:23:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+May 26 18:23:27 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:23:27 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:23:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 26 18:23:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 26 18:23:27 symfony [info] {sfWebDebugLogger} Configuration 169.05 ms (9)
+May 26 18:23:27 symfony [info] {sfWebDebugLogger} Factories 371.85 ms (1)
+May 26 18:23:27 symfony [info] {sfWebDebugLogger} Action "default/index" 0.20 ms (1)
+May 26 18:23:27 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 99.43 ms (1)
+May 26 18:23:27 symfony [info] {sfWebResponse} Send content (32237 o)
+May 26 18:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 26 18:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 26 18:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 26 18:25:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 26 18:25:48 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\SN\lib\vendor\symfony\lib\storage\sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at C:\xampp\htdocs\SN\web\backend_dev.php:6))
+May 26 18:25:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 26 18:25:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 26 18:25:48 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 26 18:25:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+May 26 18:25:48 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:25:48 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:25:48 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\SN\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\SN\web\backend_dev.php:6))
+May 26 18:25:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 26 18:25:48 symfony [warning] {sfWebDebugLogger}  Warning at C:\xampp\htdocs\SN\lib\vendor\symfony\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\SN\web\backend_dev.php:6))
+May 26 18:25:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 26 18:25:48 symfony [info] {sfWebDebugLogger} Configuration 12.26 ms (9)
+May 26 18:25:48 symfony [info] {sfWebDebugLogger} Factories 51.99 ms (1)
+May 26 18:25:48 symfony [info] {sfWebDebugLogger} Action "default/index" 0.19 ms (1)
+May 26 18:25:48 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 27.22 ms (1)
+May 26 18:25:48 symfony [info] {sfWebResponse} Send content (31559 o)
+May 26 18:26:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 26 18:26:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 26 18:26:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 26 18:26:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 26 18:26:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 26 18:26:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 26 18:26:01 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 26 18:26:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+May 26 18:26:01 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:26:01 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 26 18:26:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 26 18:26:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 26 18:26:01 symfony [info] {sfWebDebugLogger} Configuration 12.67 ms (9)
+May 26 18:26:01 symfony [info] {sfWebDebugLogger} Factories 130.32 ms (1)
+May 26 18:26:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.19 ms (1)
+May 26 18:26:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 31.09 ms (1)
+May 26 18:26:01 symfony [info] {sfWebResponse} Send content (31560 o)
