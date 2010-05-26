@@ -54,3 +54,23 @@ May 26 18:26:01 symfony [info] {sfWebDebugLogger} Factories 130.32 ms (1)
 May 26 18:26:01 symfony [info] {sfWebDebugLogger} Action "default/index" 0.19 ms (1)
 May 26 18:26:01 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 31.09 ms (1)
 May 26 18:26:01 symfony [info] {sfWebResponse} Send content (31560 o)
+May 26 18:53:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 26 18:53:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 26 18:53:09 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 26 18:53:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 26 18:53:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 26 18:53:09 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+May 26 18:53:09 symfony [info] {sfBasicSecurityFilter} Action "default/index" requires authentication, forwarding to "sfGuardAuth/signin"
+May 26 18:53:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 26 18:53:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 26 18:53:09 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+May 26 18:53:09 symfony [info] {sfPHPView} Render "C:/xampp/htdocs/SN/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+May 26 18:53:09 symfony [info] {sfPHPView} Decorate content with "C:\xampp\htdocs\SN\apps\backend\templates/layout.php"
+May 26 18:53:09 symfony [info] {sfPHPView} Render "C:\xampp\htdocs\SN\apps\backend\templates/layout.php"
+May 26 18:53:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+May 26 18:53:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 26 18:53:09 symfony [info] {sfWebDebugLogger} Configuration 642.04 ms (12)
+May 26 18:53:09 symfony [info] {sfWebDebugLogger} Factories 266.79 ms (1)
+May 26 18:53:09 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 58.04 ms (1)
+May 26 18:53:09 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 58.70 ms (1)
+May 26 18:53:09 symfony [info] {sfWebResponse} Send content (34157 o)

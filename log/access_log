@@ -85,3 +85,4 @@
 127.0.0.1 - - [26/May/2010:18:26:02 +0400] "GET /sf/sf_web_debug/images/info.png HTTP/1.1" 304 -
 127.0.0.1 - - [26/May/2010:18:26:02 +0400] "GET /sf/sf_web_debug/images/warning.png HTTP/1.1" 304 -
 127.0.0.1 - - [26/May/2010:18:26:02 +0400] "GET /sf/sf_web_debug/images/error.png HTTP/1.1" 304 -
+127.0.0.1 - - [26/May/2010:18:53:08 +0400] "GET /backend_dev.php HTTP/1.1" 401 34160
