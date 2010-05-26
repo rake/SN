@@ -1,0 +1,19 @@
+[Wed May 26 15:33:29 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/
+[Wed May 26 15:33:29 2010] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed May 26 15:33:29 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/
+[Wed May 26 15:33:29 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/
+[Wed May 26 15:33:32 2010] [error] [client 127.0.0.1] Empty module and/or action after parsing the URL "/favicon.ico" (/).
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_default" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:38 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
+[Wed May 26 15:33:39 2010] [error] [client 127.0.0.1] Action "sf/sf_web_debug" does not exist., referer: http://sn.localhost/frontend_dev.php
